@@ -1,0 +1,194 @@
+@charset "utf-8";
+/* CSS Document */
+
+body, html
+{
+	height: 200%;
+	background-color: #95AFBA;
+}
+
+#note
+{
+	position: fixed;
+	left: 35%;
+	font-size: 24px;
+	font-family: newsflash;
+	background-color:#CACACA;
+	z-index: 1;
+}
+
+/*#value
+{
+	position: fixed;
+	z-index: 1;
+}*/
+
+@font-face
+{
+	font-family: newsflash;
+	src:url('fonts/NewsflashBB.ttf')	
+}
+
+@font-face
+{
+	font-family: hennyPenny;
+	src: url('fonts/HennyPenny.ttf');	
+}
+
+@font-face
+{
+	font-family: kawoszeh;
+	src: url('fonts/kawoszeh.ttf');
+}
+
+h1
+{
+	font-family: hennyPenny;
+	font-size: 72px;
+	position: fixed;
+	margin-left: 5%;
+	z-index: 1;
+}
+
+.info
+{
+	font-family: kawoszeh;
+	width: 20%;
+	font-size: 20px;
+	border: 1px solid #D7D7D7;
+	background-color:#CACACA;
+	text-align: center;
+	padding: 1%;
+	left: 60%;
+	top: 15%;
+	position: fixed;
+	opacity: 0.8;
+	z-index: 1;
+}
+
+#div_03
+{
+	left: 100%;
+}
+
+#div_04
+{
+	top: 100%;
+}
+
+#div_05
+{
+	left: -50%;
+}
+
+#div_06
+{
+	top: -50%;
+}
+
+#jack_01
+{
+	width: 10%;
+	left: -20%;
+	top: 50%;
+	z-index: 1;
+	position: fixed;	
+}
+
+#jack_03
+{
+	width: 10%;
+	left: 25%;
+	top: 50%;
+	z-index: 1;
+	position: fixed;	
+}
+
+#jack_02
+{
+	width: 10%;
+	top: 65%;
+	left: 120%;
+	z-index: 1;
+	position: fixed;
+}
+
+#giant
+{
+	width: 20%;
+	top: 60%;
+	left: 140%;
+	z-index: 1;
+	position: fixed;	
+}
+
+#cow
+{
+	width: 10%;
+	left: -10%;
+	top: 50%;
+	z-index: 1;
+	position: fixed;	
+}
+
+#beanstalk_01
+{
+	position: fixed;
+	top: 90%;
+	width: 50%;
+	z-index: 1;
+}
+
+#beanstalk_02
+{
+	position: fixed;
+	top: 10%;
+	width: 50%;
+	z-index: 1;
+}
+
+#castle
+{
+	position: fixed;
+	width: 50%;
+	top: -60%;
+	left: 5%;
+	z-index: 1;	
+}
+
+#cloudImg_01, #cloudImg_02, #cloudImg_03, #cloudImg_04, #cloudImg_05, #cloudImg_06
+{
+	width: 99%;
+	position: absolute;
+	z-index: 0;
+}
+
+#cloudImg_01
+{
+	top: -10%;	
+}
+
+#cloudImg_02
+{
+	top: 10%;
+}
+
+#cloudImg_03
+{
+	top: 35%;	
+}
+
+#cloudImg_04
+{
+	top: 25%
+}
+
+#cloudImg_05
+{
+	top: 70%;
+}
+
+#cloudImg_06
+{
+	top: -40%;
+}
